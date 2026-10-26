@@ -1,0 +1,46 @@
+{
+  "model": "Logistic Regression",
+  "model_class": "LogisticRegression",
+  "version": "v1",
+  "trained_on": {
+    "file": "customers_cleaned.csv",
+    "rows": 7043,
+    "columns": 21,
+    "churn_rate_pct": 26.54
+  },
+  "card_created": "2026-10-12",
+  "library_versions": {
+    "scikit-learn": "1.6.1",
+    "pandas": "2.2.3",
+    "joblib": "1.5.0"
+  },
+  "test_metrics": {
+    "Accuracy": 0.738,
+    "Precision": 0.504,
+    "Recall": 0.783,
+    "F1-score": 0.614,
+    "ROC-AUC": 0.842
+  },
+  "threshold": 0.5,
+  "input_features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ]
+}
